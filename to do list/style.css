@@ -1,0 +1,32 @@
+p{
+    width: 30vw;
+    border: 2px solid orangered;
+    border-radius: 6px;
+    font-size: 24px;
+    font-family: monospace;
+    padding: 8px;
+    text-align: center;
+}
+p:hover{
+    background: rgba(255, 68, 0,0.8);
+    color: #fff;
+}
+input{
+    font-family: monospace;
+    outline: none;
+    padding: 8px 30px;
+    border-radius: 6px;
+}
+button{
+    padding: 8px 20px;
+    background: orangered;
+    color: #fff;
+    border-radius: 8px 20px;
+    border: 2px solid orangered;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
